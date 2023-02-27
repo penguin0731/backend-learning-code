@@ -1,0 +1,12 @@
+
+m
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8‹Øõåæ0
+l
+java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(×Áò¿8•şõåæ0
+0
+java:S1220""Move this file to a named package.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(É¥šû8â»†ææ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•ù£•ùÿÿÿÿ8úÏèææ0
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8â»†ææ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¼ÂÛÙüÿÿÿÿ8úÏèææ0
