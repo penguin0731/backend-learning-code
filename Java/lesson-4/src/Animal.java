@@ -1,12 +1,17 @@
 public class Animal {
     public String name;
 
+    public Animal() {
+        System.out.println("Animal的无参构造函数");
+    }
+
     public void eat() {
-        System.out.println("吃饭");
+        System.out.println("Animal吃饭");
     }
 
     public void sleep() {
-        System.out.println("睡觉");
+        this.eat();
+        System.out.println("Animal睡觉");
     }
 
 }
