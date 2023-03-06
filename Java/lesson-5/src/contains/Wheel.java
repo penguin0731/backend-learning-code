@@ -1,11 +1,19 @@
 package contains;
 
 public class Wheel {
-    public String brand; // 品牌
-    public int size; // 尺寸
-    public String color; // 颜色
+    private String brand; // 品牌
+    private String color; // 颜色
 
-    public void turn() {
-        System.out.println("车轮子转动");
+    public Wheel(String brand, String color) {
+        this.brand = brand;
+        this.color = color;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getColor() {
+        return color;
     }
 }

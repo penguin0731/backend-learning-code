@@ -1,14 +1,21 @@
 package contains;
 
 public class Car {
-    public String brand; // 汽车品牌
-    public String type; // 型号
-    public String color; // 颜色
-    public Wheel wheel; // 车里面有一个轮子 --> 包含关系（聚合）
+    private String brand; // 汽车品牌
+    private String color; // 颜色
+    private Wheel wheel; // 汽车和轮胎 --> 聚合关系
 
-    public void showCar() {
-        System.out.println("这是一辆" + brand + "牌" + type + "型号的" + color + "小汽车");
-        System.out.println("车上搭载了" + wheel.brand + "牌" + wheel.size + "尺寸的" + wheel.color + "轮胎");
-        wheel.turn();
+    public Car(String brand, String color, Wheel wheel) {
+        this.brand = brand;
+        this.color = color;
+        this.wheel = wheel;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void printCarInfo() {
+        System.out.println("This is a " + color + " " + brand + " car with " + wheel.getColor() + " " + wheel.getBrand() + " wheel.");
     }
 }
