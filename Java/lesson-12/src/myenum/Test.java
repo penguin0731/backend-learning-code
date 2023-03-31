@@ -8,5 +8,8 @@ public class Test {
         for (Color myColor : Color.values()) {
             System.out.println(myColor);
         }
+
+        Color g = Color.valueOf("GREEN");
+        System.out.println(g.name());
     }
 }
